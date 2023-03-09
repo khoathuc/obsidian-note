@@ -24,12 +24,21 @@ class A {
 class B {
 	public A a;
 	public B b;
+	private C c;
 	public B(){};
 	public int m1(A a) {
 		b2 = new B();
 		a.X(b2);
-		this.m4();
-		b2.m5();
+		m4();
+		this.c.m5();
+	}
+	
+	public void m3(){
+	
+	}
+	
+	public void m4(){
+	
 	}
 
 }
